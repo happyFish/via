@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<title>Hello World!!</title> 
+		<link rel='stylesheet' type='text/css' href = 'css/Main.css'/>
+		
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript"src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+		<script type="text/javascript" language="javascript"src="$MANAGER_WIDGET/Common/API/Plugin.js"></script>
+		
+				
+		<script type="text/javascript" language="javascript" src="js/jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" language="javascript" src="js/Main.js"></script>
+		
+	</head>
+	
+	<OBJECT	id ="PluginWindow" border=0 classid="clsid:SAMSUNG-INFOLINK-WINDOW" style="opacity:0.0; background-color:#000000; width:300px; height:100px;"></OBJECT>
+	<OBJECT	id ="PluginTV" border=0 classid="clsid:SAMSUNG-INFOLINK-TV" style="opacity:0.0; background-color:#000000; width:300px; height:100px;"></OBJECT>
+	<OBJECT	id ="PluginTime" border=0 classid="clsid:SAMSUNG-INFOLINK-TIME" style="opacity:0.0; background-color:#000000; width:300px; height:100px;"></OBJECT>
+	
+	<body onload="Main.onLoad();"> 
+		<div id="wrapper">
+			<div id='welcome'>Hello world!</div> 
+			
+			<div id="guide">
+				
+			</div>
+		
+			<a href='javascript:void(0);' id='anchor' onkeydown='Main.keyDown();'></a>
+		</div>
+	</body>
+	
+	<script type="text/javascript" language="javascript" src="js/sef.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$('#welcome').animate({'left':555}, 1000);
+		});
+	</script>
+	
+</html>

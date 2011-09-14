@@ -1,0 +1,32 @@
+body {
+    margin: 0; 
+    padding: 0;
+ }
+#wrapper{
+	background: transparent;
+	width: 960px;
+	height: 540px;
+}
+#welcome { 
+   position: absolute;
+   left: 50px; 
+   top: 50px;
+   width: 500px; 
+   height: 50px; 
+   background-color: #AFAFAF; 
+   color: yellow; 
+   font-size: 30px; 
+   text-align: center;
+}
+
+
+
+#guide{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	width: 250px;
+	height: 450px;
+	background: rgba(0,0,0,.6);
+	color: white;
+}
